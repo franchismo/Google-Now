@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		286868F51A71CAEE00C9D874 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286868F41A71CAEE00C9D874 /* SettingsViewController.swift */; };
 		287A66B31A6F306A00520FD0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 287A66B21A6F306A00520FD0 /* AppDelegate.swift */; };
 		287A66B51A6F306A00520FD0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 287A66B41A6F306A00520FD0 /* ViewController.swift */; };
 		287A66B81A6F306A00520FD0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 287A66B61A6F306A00520FD0 /* Main.storyboard */; };
@@ -26,6 +27,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		286868F41A71CAEE00C9D874 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		287A66AD1A6F306A00520FD0 /* GoogleNow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoogleNow.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		287A66B11A6F306A00520FD0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		287A66B21A6F306A00520FD0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -83,6 +85,7 @@
 				287A66B91A6F306A00520FD0 /* Images.xcassets */,
 				287A66BB1A6F306A00520FD0 /* LaunchScreen.xib */,
 				287A66B01A6F306A00520FD0 /* Supporting Files */,
+				286868F41A71CAEE00C9D874 /* SettingsViewController.swift */,
 			);
 			path = GoogleNow;
 			sourceTree = "<group>";
@@ -214,6 +217,7 @@
 			files = (
 				287A66B51A6F306A00520FD0 /* ViewController.swift in Sources */,
 				287A66B31A6F306A00520FD0 /* AppDelegate.swift in Sources */,
+				286868F51A71CAEE00C9D874 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -405,6 +409,7 @@
 				287A66CE1A6F306A00520FD0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		287A66CF1A6F306A00520FD0 /* Build configuration list for PBXNativeTarget "GoogleNowTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +418,7 @@
 				287A66D11A6F306A00520FD0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
